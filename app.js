@@ -1,0 +1,11 @@
+let item_names = [`alpha`, `beta`, `gamma`];
+let item_prices = [5.01, 7.07, 6.77];
+let in_stock = [true, false, true];
+let first_item_name = item_names[0];
+let first_item_price = item_names[0];
+item_names.push(`omega`);
+item_prices.push(4.95);
+in_stock.push(false);
+let last_item_name = item_names.pop();
+let last_item_price = item_prices.pop();
+let last_item_stock = in_stock.pop();
